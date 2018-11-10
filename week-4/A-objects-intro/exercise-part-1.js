@@ -6,4 +6,8 @@ can describe with a JavaScript object
 Assign each of them to a separate variable
 
 */
-
+const car = {
+  brand: "Ford",
+  maxSpeed: 200,
+  gearboxAuto: true
+};
