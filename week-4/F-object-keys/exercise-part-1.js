@@ -6,7 +6,7 @@ You're going to have to used what we learned at the start of this lesson, and so
 
 */
 
-var mentorsAges = {
+const mentorsAges = {
   james: 29,
   JOSH: 35,
   JAMIE: 25,
@@ -15,9 +15,9 @@ var mentorsAges = {
 
 // ONLY EDIT BELOW THIS LINE
 
-var mentorsNames = ;
+const mentorsNames = Object.keys(mentorsAges);
 
-var mentorsNamedCapitalised = ;
+const mentorsNamedCapitalised = mentorsNames.map(name => name.toUpperCase());
 
 // ONLY EDIT ABOVE THIS LINE
 

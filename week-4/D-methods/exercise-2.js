@@ -5,7 +5,7 @@ Hint: use 'this' keyword to access the name property.
 */
 
 
-var person = {
+const person = {
     name: "Alice",
     age: 25
 };

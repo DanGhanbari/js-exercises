@@ -17,6 +17,7 @@
 document.querySelector('#button1').addEventListener('click', exercise1)
 
 function exercise1() {
+  element.innerText="Daniel";
   // Write your implementation here
 }
 

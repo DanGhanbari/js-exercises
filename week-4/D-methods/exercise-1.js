@@ -4,7 +4,7 @@ Add a method "greet" so this person can say hello.
 */
 
 
-var person = {
+const person = {
     name: "Alice",
     age: 25
 };
